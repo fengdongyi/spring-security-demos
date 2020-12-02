@@ -16,6 +16,8 @@ public class User {
 
     private String password;
 
+    private String permission;
+
     public Long getId() {
         return id;
     }
@@ -38,5 +40,13 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getPermission() {
+        return permission;
+    }
+
+    public void setPermission(String permission) {
+        this.permission = permission;
     }
 }
